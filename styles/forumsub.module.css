@@ -38,7 +38,7 @@
     .allButtons {
         display: flex;
         flex-wrap: wrap;
-        flex-direction: column;
+        flex-direction: column-reverse;
         /* margin-bottom: 50px;
         margin-top: 50px; */
     }
