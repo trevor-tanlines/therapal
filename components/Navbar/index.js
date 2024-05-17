@@ -1,29 +1,10 @@
 import { useCallback } from 'react';
 import Image from 'next/image';
-import styles from "@/components/Navbar/navbar.module.css"
+import styles from "@/components/Navbar/navbar.module.css";
 import Link from 'next/link';
 
 
-const NavBar= () => {
-  	
-  	const onProfileContainerClick = useCallback(() => {
-  	}, []);
-  	
-  	
-  	const onEmergencyContainerClick = useCallback(() => {
-  	}, []);
-  	
-  	
-  	const onNotificationContainerClick = useCallback(() => {
-  	}, []);
-  	
-  	
-  	const onMessagesContainerClick = useCallback(() => {
-  	}, []);
-  	
-  	
-  	const onHomeContainerClick = useCallback(() => {
-  	}, []);
+export default function navbar () {
   	
   	return (
     		<div className={styles.navbar}>
@@ -54,4 +35,3 @@ const NavBar= () => {
 			);
 };
 
-export default NavBar;
