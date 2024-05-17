@@ -3,6 +3,7 @@ import styles from "@/styles/homes.module.css"
 import Link from "next/link"
 import Header from "@/components/header"
 import Navbar from "@/components/Navbar"
+import Image from "next/image"
 
 export default function homePage () {
     return(
@@ -40,7 +41,9 @@ export default function homePage () {
                     </Link>
                 </div>
             </div>
-
+               
+                <Image className={styles.background} src={"/images/logo.jpg"} alt="Logo" height={200} width={445}/>
+            
             </div>
             <Navbar/>
         </>
