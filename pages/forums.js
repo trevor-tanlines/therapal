@@ -1,6 +1,7 @@
 import Chart from "@/components/Chart/chart"
 import styles from "@/styles/homes.module.css"
 import Link from "next/link"
+import Navbar from "@/components/Navbar"
 
 export default function homePage () {
     return(
@@ -38,6 +39,7 @@ export default function homePage () {
             </div>
 
             </div>
+            <Navbar/>
         </>
 
     )

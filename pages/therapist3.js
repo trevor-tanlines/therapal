@@ -5,6 +5,7 @@ import Bio from "@/components/BioV3/index"
 import Button from "@/components/Button"
 import Header from "@/components/header"
 import Image from "next/image"
+import Navbar from "@/components/Navbar"
 
 export default function homePage () {
     return(
@@ -28,7 +29,10 @@ export default function homePage () {
                     <Bio/>
                 </div>
             </div>
-        </>
+            <div className={styles.navBar}>
+            <Navbar/>
+            </div>       
+             </>
 
     )
 }

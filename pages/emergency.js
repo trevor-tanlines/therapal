@@ -3,6 +3,7 @@ import Image from "next/image"
 import Phone from "@/public/images/phone.png"
 import Header from "@/components/header"
 import Hospital from "@/public/images/hospital.jpg"
+import Navbar from "@/components/Navbar"
 
 export default function Emergency () {
 
@@ -20,7 +21,7 @@ export default function Emergency () {
         </div>
         <Image src={Hospital} width={250} height={250}></Image>
        </div>
+       <Navbar/>
         </>
-
     )
 }

@@ -3,6 +3,7 @@ import styles from "@/styles/homes.module.css"
 import Link from "next/link"
 import Head from "next/head"
 import Header from "@/components/header"
+import Navbar from "@/components/Navbar"
 
 export default function homePage () {
     return(
@@ -35,10 +36,9 @@ export default function homePage () {
                             <button style={{color: "white"}}>Therapist 4</button>
                     </Link>
                 </div>
-
             </div>
-
             </div>
+            <Navbar/>
         </>
 
     )
