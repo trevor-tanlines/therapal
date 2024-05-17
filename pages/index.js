@@ -1,10 +1,12 @@
 import Head from "next/head";
 import styles from "@/styles/Home.module.css";
+import Navbar from "@/components/Navbar";
 import Quiz from "@/components/Quizlanding/index"
 import Header from "@/components/header";
 import { useState, useEffect } from "react";
 import { axios } from "axios";
 import Chart from "@/components/Chart/chart"
+
 
 
 export default function Home() {

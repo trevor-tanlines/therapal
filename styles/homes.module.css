@@ -1,6 +1,6 @@
 .mainContainer{
 display: flex;
-justify-content: space-evenly; 
+margin-top: 50px;
 flex-direction: column;
 height: 100vh;
 background-color: var(--white);
@@ -36,4 +36,9 @@ width: 430px;
 .allButtons {
     display: flex;
     flex-wrap: wrap;
+}
+.images img{
+    padding-left: 15px;
+    border-radius: 20px;
+    
 }
