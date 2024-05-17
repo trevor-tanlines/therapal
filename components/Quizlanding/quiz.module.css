@@ -1,0 +1,23 @@
+.mainContainer{
+display: flex;
+justify-content: center;
+flex-direction: column;
+background-color: var(--green);
+text-align: center;
+padding: 32px 47px ;
+height: 100vh;
+}
+.mainContainer a:first-of-type {
+color: var(--white);
+background-color: var(--midnight);
+border-radius: 15px;
+margin-bottom: 20px;
+}
+.mainContainer a:last-of-type  {
+color: var(--white);
+background-color: var(--midnight);
+border-radius: 15px;
+}
+.mainContainer img {
+margin: 0 auto;
+}
