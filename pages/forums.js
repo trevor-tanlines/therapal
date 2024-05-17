@@ -2,7 +2,7 @@ import Chart from "@/components/Chart/chart"
 import Link from "next/link"
 import Navbar from "@/components/Navbar"
 import Header from "@/components/header"
-import styles from "@/styles/forumsub.module.css"
+import styles from "@/styles/forums.module.css"
 
 export default function homePage () {
     return(

@@ -1,8 +1,8 @@
 import Chart from "@/components/Chart/chart"
-import styles from "@/styles/forums.module.css"
 import Link from "next/link"
 import Navbar from "@/components/Navbar"
 import Header from "@/components/header"
+import styles from "@/styles/forumsub.module.css"
 
 export default function homePage () {
     return(
