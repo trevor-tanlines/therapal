@@ -1,7 +1,6 @@
 import styles from "@/styles/emergency.module.css"
 import Image from "next/image"
 import Phone from "@/public/images/phone.png"
-import NavBar from "@/components/Navbar"
 import Header from "@/components/header"
 import Hospital from "@/public/images/hospital.jpg"
 
@@ -21,9 +20,6 @@ export default function Emergency () {
         </div>
         <Image src={Hospital} width={250} height={250}></Image>
        </div>
-       <div className={styles.navBar}>
-       <NavBar/>
-        </div>
         </>
 
     )

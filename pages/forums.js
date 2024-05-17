@@ -1,4 +1,3 @@
-import Navbar from "@/components/Navbar/index"
 import Chart from "@/components/Chart/chart"
 import styles from "@/styles/homes.module.css"
 import Link from "next/link"
@@ -35,10 +34,6 @@ export default function homePage () {
                     <Link href="/quiz">
                             <button>Quiz</button>
                     </Link>
-                </div>
-
-                <div className={styles.navBar}>
-                    <Navbar/>
                 </div>
             </div>
 

@@ -1,4 +1,3 @@
-import Navbar from "@/components/Navbar/index"
 import Chart from "@/components/Chart/chart"
 import styles from "@/styles/therapist.module.css"
 import Link from "next/link"
@@ -28,12 +27,6 @@ export default function homePage () {
                 <div className={styles.bio}>
                     <Bio/>
                 </div>
-
-                <div className={styles.navBar}>
-                    <Navbar/>
-                </div>
-            
-
             </div>
         </>
 
