@@ -91,6 +91,8 @@
   left: 40.93%;
   cursor: pointer;
 }
+
+
 .messagesIcon{
   position: absolute;
   height: 55.81%;
@@ -144,4 +146,3 @@
   color: #e0e0e0;
   font-family: 'Alumni Sans';
 }
-
