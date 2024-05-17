@@ -1,3 +1,4 @@
+import Navbar from "@/components/Navbar/index"
 import Chart from "@/components/Chart/chart"
 import styles from "@/styles/therapist.module.css"
 import Link from "next/link"
@@ -5,7 +6,6 @@ import Bio from "@/components/BioV2/index"
 import Button from "@/components/Button"
 import Header from "@/components/header"
 import Image from "next/image"
-import Navbar from "@/components/Navbar"
 
 export default function homePage () {
     return(
@@ -28,9 +28,12 @@ export default function homePage () {
                 <div className={styles.bio}>
                     <Bio/>
                 </div>
-            </div>
-            <div className={styles.navBar}>
-            <Navbar/>
+
+                <div className={styles.navBar}>
+                    <Navbar/>
+                </div>
+            
+
             </div>
         </>
 

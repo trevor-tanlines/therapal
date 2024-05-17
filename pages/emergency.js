@@ -1,9 +1,10 @@
 import styles from "@/styles/emergency.module.css"
 import Image from "next/image"
 import Phone from "@/public/images/phone.png"
+import NavBar from "@/components/Navbar"
 import Header from "@/components/header"
 import Hospital from "@/public/images/hospital.jpg"
-import Navbar from "@/components/Navbar"
+import Alarm from "@/public/images/alarm.png"
 
 export default function Emergency () {
 
@@ -19,9 +20,12 @@ export default function Emergency () {
         <p>1-855-242-3310</p>
         <p>Crisis or suicidal phone line call this number</p>
         </div>
-        <Image src={Hospital} width={250} height={250}></Image>
+        <Image src={Alarm} width={250} height={250}></Image>
        </div>
-       <Navbar/>
+       <div className={styles.navBar}>
+       <NavBar/>
+        </div>
         </>
+
     )
 }

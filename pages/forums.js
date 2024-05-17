@@ -1,43 +1,48 @@
+import Navbar from "@/components/Navbar/index"
 import Chart from "@/components/Chart/chart"
+import styles from "@/styles/homes.module.css"
 import Link from "next/link"
-import Navbar from "@/components/Navbar"
-import Header from "@/components/header"
-import styles from "@/styles/forumsub.module.css"
 
 export default function homePage () {
     return(
         <>
-        <Header title={"Forums"}/>
             <div className={styles.mainContainer}>
+                
+                <div className={styles.chart}>
+                    <Chart/>
+                </div>
 
             <div className={styles.allButtons}>
                 <div className={styles.button}>
-                    <Link href="/food">
-                            <button>Food</button>
+                    <Link href="/">
+                            <button>Emergency</button>
                     </Link>
                 </div>
 
                 <div className={styles.button}>
                     <Link href="/">
-                            <button>Music</button>
+                            <button>Programs</button>
                     </Link>
                 </div>
 
                 <div className={styles.button}>
                     <Link href="/">
-                            <button>Cocktails</button>
+                            <button>Forums</button>
                     </Link>
                 </div>
 
                 <div className={styles.button}>
-                    <Link href="/">
-                            <button>Sports</button>
+                    <Link href="/quiz">
+                            <button>Quiz</button>
                     </Link>
+                </div>
+
+                <div className={styles.navBar}>
+                    <Navbar/>
                 </div>
             </div>
 
             </div>
-            <Navbar/>
         </>
 
     )

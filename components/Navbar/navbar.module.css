@@ -1,148 +1,147 @@
 .navbarChild {
-    position: relative;
-    height: 100%;
-    width: 100%;
-    top: 0%;
-    right: 0%;
-    bottom: 0%;
-    left: 0%;
-    background-color: #004346;
-  }
-  .navbarItem {
-    position: absolute;
-    height: 3.33%;
-    width: 100.47%;
-    top: -1.67%;
-    right: -0.23%;
-    bottom: 98.33%;
-    left: -0.23%;
-    border-top: 2px solid #7d7e80;
-    box-sizing: border-box;
-  }
-  .forYouIcon {
-    position: absolute;
-    height: 55.81%;
-    width: 63.16%;
-    top: 0%;
-    right: 15.79%;
-    bottom: 44.19%;
-    left: 21.05%;
-    max-width: 100%;
-    overflow: hidden;
-    max-height: 100%;
-  }
-  .profile {
-    position: absolute;
-    height: 71.67%;
-    width: 8.84%;
-    top: 18.33%;
-    right: 3.26%;
-    bottom: 10%;
-    left: 87.91%;
-    cursor: pointer;
-  }
-  .callIcon {
-    position: absolute;
-    height: 55.81%;
-    width: 36.92%;
-    top: 0%;
-    right: 30.77%;
-    bottom: 44.19%;
-    left: 32.31%;
-    max-width: 100%;
-    overflow: hidden;
-    max-height: 100%;
-  }
-  .emergency {
-    position: absolute;
-    height: 71.67%;
-    width: 15.12%;
-    top: 18.33%;
-    right: 20%;
-    bottom: 10%;
-    left: 42%;
-    cursor: pointer;
-  }
-  .notifications {
-    position: absolute;
-    top: 55.81%;
-    left: 0%;
-    letter-spacing: 0.1em;
-  }
-  .notificationsIcon {
-    position: absolute;
-    height: 55.81%;
-    width: 30.77%;
-    top: 0%;
-    right: 34.62%;
-    bottom: 44.19%;
-    left: 34.62%;
-    max-width: 100%;
-    overflow: hidden;
-    max-height: 100%;
-  }
-  .notification {
-    position: absolute;
-    height: 71.67%;
-    width: 18.14%;
-    top: 18.33%;
-    right: 40.93%;
-    bottom: 10%;
-    left: 40.93%;
-    cursor: pointer;
-  }
-  .messagesIcon{
-    position: absolute;
-    height: 55.81%;
-    width: 40.68%;
-    top: 0%;
-    right: 28.81%;
-    bottom: 44.19%;
-    left: 30.51%;
-    max-width: 100%;
-    overflow: hidden;
-    max-height: 100%;
-  }
-  .messages {
-    position: absolute;
-    height: 71.67%;
-    width: 13.72%;
-    top: 18.33%;
-    right: 66.74%;
-    bottom: 10%;
-    left: 19.53%;
-    cursor: pointer;
-  }
-  .homeIcon {
-    position: absolute;
-    height: 55.81%;
-    width: 75%;
-    top: 0%;
-    right: 12.5%;
-    bottom: 44.19%;
-    left: 12.5%;
-    max-width: 100%;
-    overflow: hidden;
-    max-height: 100%;
-  }
-  .home {
-    position: absolute;
-    height: 71.67%;
-    width: 7.44%;
-    top: 18.33%;
-    right: 89.3%;
-    bottom: 10%;
-    left: 3.26%;
-    cursor: pointer;
-  }
-  .navbar {
-    width: var(--width);
-    position: relative;
-    height: 60px;
-    text-align: center;
-    font-size: 16px;
-    color: #e0e0e0;
-    font-family: 'Alumni Sans';
-  }
-  
-  
+  position: relative;
+  height: 100%;
+  width: 100%;
+  top: 0%;
+  right: 0%;
+  bottom: 0%;
+  left: 0%;
+  background-color: #004346;
+}
+.navbarItem {
+  position: absolute;
+  height: 3.33%;
+  width: 100.47%;
+  top: -1.67%;
+  right: -0.23%;
+  bottom: 98.33%;
+  left: -0.23%;
+  border-top: 2px solid #7d7e80;
+  box-sizing: border-box;
+}
+.forYouIcon {
+  position: absolute;
+  height: 55.81%;
+  width: 63.16%;
+  top: 0%;
+  right: 15.79%;
+  bottom: 44.19%;
+  left: 21.05%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.profile {
+  position: absolute;
+  height: 71.67%;
+  width: 8.84%;
+  top: 18.33%;
+  right: 3.26%;
+  bottom: 10%;
+  left: 87.91%;
+  cursor: pointer;
+}
+.callIcon {
+  position: absolute;
+  height: 55.81%;
+  width: 36.92%;
+  top: 0%;
+  right: 30.77%;
+  bottom: 44.19%;
+  left: 32.31%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.emergency {
+  position: absolute;
+  height: 71.67%;
+  width: 15.12%;
+  top: 18.33%;
+  right: 20%;
+  bottom: 10%;
+  left: 42%;
+  cursor: pointer;
+}
+.notifications {
+  position: absolute;
+  top: 55.81%;
+  left: 0%;
+  letter-spacing: 0.1em;
+}
+.notificationsIcon {
+  position: absolute;
+  height: 55.81%;
+  width: 30.77%;
+  top: 0%;
+  right: 34.62%;
+  bottom: 44.19%;
+  left: 34.62%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.notification {
+  position: absolute;
+  height: 71.67%;
+  width: 18.14%;
+  top: 18.33%;
+  right: 40.93%;
+  bottom: 10%;
+  left: 40.93%;
+  cursor: pointer;
+}
+.messagesIcon{
+  position: absolute;
+  height: 55.81%;
+  width: 40.68%;
+  top: 0%;
+  right: 28.81%;
+  bottom: 44.19%;
+  left: 30.51%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.messages {
+  position: absolute;
+  height: 71.67%;
+  width: 13.72%;
+  top: 18.33%;
+  right: 66.74%;
+  bottom: 10%;
+  left: 19.53%;
+  cursor: pointer;
+}
+.homeIcon {
+  position: absolute;
+  height: 55.81%;
+  width: 75%;
+  top: 0%;
+  right: 12.5%;
+  bottom: 44.19%;
+  left: 12.5%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.home {
+  position: absolute;
+  height: 71.67%;
+  width: 7.44%;
+  top: 18.33%;
+  right: 89.3%;
+  bottom: 10%;
+  left: 3.26%;
+  cursor: pointer;
+}
+.navbar {
+  width: var(--width);
+  position: relative;
+  height: 60px;
+  text-align: center;
+  font-size: 16px;
+  color: #e0e0e0;
+  font-family: 'Alumni Sans';
+}
+
