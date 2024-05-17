@@ -1,0 +1,27 @@
+.options{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.options button{
+    background-color: #004346;
+    border-radius: 25px;
+}
+.buttons button{
+    width: 100px;
+    height: 50px;
+    border-radius: 20px;
+    background-color: #004346;
+    
+}
+.buttons{
+    bottom: 18rem;
+    display: flex;
+    gap: 4rem;
+    justify-content: center;
+}
+.back{
+    margin-top: 0 !important;
+}
+.mainContainer img{
+    background-image:url('/public/images/therapy.svg');
+}

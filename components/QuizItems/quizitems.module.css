@@ -1,0 +1,121 @@
+.mainContainer{
+    display: flex;
+    justify-content: space-evenly; 
+    flex-direction: column;
+    background-color: var(--white);
+    text-align: left;
+    height: 100vh;
+    color: var(--black);
+}
+
+.mainContainer div {
+    border: 2px solid var(--black);
+    border-radius: 15px;
+    margin: 0 20px;
+    padding: 10px;
+    
+}
+.mainContainer div:hover{
+    background-color: var(--midnight);
+    color: white;
+}
+
+.mainContainer p{
+    text-align: center;
+}
+
+
+.rectangle{
+    height: 10px;
+    width: 100%;
+    border-radius: 25px;
+    background-color: white;
+    margin: 0% !important;
+    display: flex;
+    align-items: center;
+    padding: 10px 0 !important;
+}
+.progress{
+    background-color: red;
+    width: 5%;
+    height: 10px;
+    border-radius: 25px;
+    margin: 0px !important;
+}
+.progressBar{
+    gap: 30px;
+    display: flex;
+    align-items: center;
+    border: none !important;
+}
+.progressBar:hover{
+    background-color: transparent !important;
+}
+.rectangle:hover{
+    background-color: transparent !important;
+}
+.progressBar p{
+color: var(--black);
+}
+.questionTwo{
+    background-color: blue;
+    width: 20%;
+    height: 10px;
+    border-radius: 25px;
+    margin: 0px !important;
+}
+.questionThree{
+    background-color: blue;
+    width: 40%;
+    height: 10px;
+    border-radius: 25px;
+    margin: 0px !important;
+}
+.questionFour{
+    background-color: blue;
+    width: 60%;
+    height: 10px;
+    border-radius: 25px;
+    margin: 0px !important;
+}
+.questionFive{
+    background-color: blue;
+    width: 80%;
+    height: 10px;
+    border-radius: 25px;
+    margin: 0px !important;
+}
+.finishedPage{
+    background-color: blue;
+    width: 100%;
+    height: 10px;
+    border-radius: 25px;
+    margin: 0px !important;
+}
+.options{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 2rem;
+    border: none !important;
+    padding: 0%;
+    
+}
+.options button{
+    align-items: flex-start;
+    background-color: var(--midnight);
+    border-radius: 25px;
+    height: 50px;
+    width: 140px;
+}
+.finishedHeader{
+    background-color: var(--green);
+    border-radius: 10px;
+    padding: 10px;
+    width: fit-content;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+.mainContainer button:hover{
+    pointer-events: none;
+}
